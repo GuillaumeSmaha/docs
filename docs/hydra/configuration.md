@@ -396,6 +396,10 @@ secrets:
     - this-is-an-old-secret
     - this-is-another-old-secret
 
+cookie:
+  # Allow to force usage of secure cookie when --dangerous-force-http is used
+  force_secure: true
+
 # Enables profiling if set. Use "cpu" to enable cpu profiling and "mem" to enable memory profiling. For more details
 # on profiling, head over to: https://blog.golang.org/profiling-go-programs
 profiling: cpu
